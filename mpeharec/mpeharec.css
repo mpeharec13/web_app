@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	background:#d1d8e0;
+	font-family:Arial,Helvetica,sans-serif;
+	color: black;
+}
+
+header {
+	background-color:#3498db;
+	color:white;
+	padding:5px;
+	height:100px;
+	
+}
+
+#podnozje{
+	text-align: center;
+	color:black;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#naslov{
+	text-align: center;
+	font-size: 20px;
+}
+#a_korisnik{
+	text-align:right;
+}
+
+#nav {
+	text-align:center;
+	overflow: auto;
+}
+
+#nav a {
+	color:white;
+	font-weight:bold;
+}
+
+#nav a:hover {
+	text-decoration:underline;
+}
+
+
+
+table {
+	padding:5px;
+	margin-top:5px;
+	border-bottom:1pt solid black;
+	border-top:1pt solid black;
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+
+}
+
+th {
+	background-color:#DDDDDD;
+	border-bottom:1pt solid black;
+	text-align:left;
+}
+
+td {
+	border-bottom:1pt solid black;
+	padding:2px;
+}
+
